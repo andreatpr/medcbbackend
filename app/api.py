@@ -4,10 +4,17 @@ from agents.graph_flow import get_graph
 from langchain_core.messages import HumanMessage
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-
+from fastapi.middleware.cors import CORSMiddleware
 graph=get_graph()
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], 
+    allow_credentials=True,
+    allow_methods=["*"], 
+    allow_headers=["*"], 
+)
 
 class UserInput(BaseModel):
     user_propmt: str

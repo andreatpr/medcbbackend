@@ -1,0 +1,22 @@
+chromadb==0.5.18
+einops==0.8.0
+fastapi==0.115.5
+Flask==3.0.3
+fpdf==1.7.2
+gunicorn==22.0.0
+huggingface-hub==0.26.2
+humanfriendly==10.0
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-core==0.3.19
+langchain-groq==0.2.1
+langchain-openai==0.2.8
+langchain-text-splitters==0.3.2
+langgraph==0.2.48
+langgraph-checkpoint==2.0.4
+langgraph-sdk==0.1.36
+langsmith==0.1.143
+openai==1.54.4
+sentence-transformers==3.3.0
+python = "3.11.10"
+ipython = "^8.29.0"
