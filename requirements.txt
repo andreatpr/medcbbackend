@@ -19,5 +19,3 @@ langsmith==0.1.143
 openai==1.54.4
 sentence-transformers==3.3.0
 uvicorn==0.32.0
-python = "3.11.10"
-ipython = "^8.29.0"
